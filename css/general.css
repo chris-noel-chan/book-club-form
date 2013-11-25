@@ -1,0 +1,97 @@
+@viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-moz-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+
+	background-image: url(../img/concrete_wall.png);
+	font: normal 100%/1.5 sans-serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+	border: none;
+}
+
+.logo {
+	width: 100px;
+	margin: auto;
+}
+
+h1 {
+	color: #999;
+	font-family: oswald, sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header {
+	margin-bottom: 1.5em;
+	padding: 2em 0 2em;
+	border-bottom: solid 1px #fff;
+}
+
+/*-----------------------------------------------------------------------*/
+
+label,
+legend {
+	display: block;
+	cursor: pointer;
+
+	color: #999;
+	font-family: oswald, sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+input,
+textarea,
+select {
+	font-size: 1rem;
+	margin-bottom: 1.5em;
+}
+
+input + label{
+/*font-size: .rem;*/
+text-transform: none;
+}
+
+input[type=radio] {
+	cursor: pointer;
+}
+
+.input-text {
+	border: 1px solid #ccc;
+	padding: .5rem;
+	background-image: linear-gradient(to bottom, #ccc, #fff);
+	border-radius: 2px;
+	width: 100%;
+}
+
+textarea {
+	height: 8em;
+}
+
+fieldset input {
+	margin-right: 10px;
+
+	float: left;
+	clear: both;
+}
+
+fieldset label {
+	float: left;
+}
+
