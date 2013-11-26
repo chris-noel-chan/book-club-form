@@ -95,3 +95,13 @@ fieldset label {
 	float: left;
 }
 
+.error {
+	color: #d90000;
+	display: block;
+	float: right;
+}
+
+.input-error {
+	border: 3px solid #d90000;
+}
+
